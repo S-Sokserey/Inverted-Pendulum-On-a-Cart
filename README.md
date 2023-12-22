@@ -12,9 +12,7 @@
 ![Animated GIF](Videos/Pole-Placement.gif)
 
 ### Linear Quadratic Regulator (LQR) 
-
-
-
+LQR is the sweet spot to find controller gain that aims to minimize a cost function that represents a trade-off between the control effort and the state of the system. It provides an optimal control law that minimizes a quadratic cost function. 
 
 ![Animated GIF](Videos/LQR.gif)
 
