@@ -4,13 +4,14 @@
 
 ![Animated GIF](Videos/No_control.gif)
 
-### Pole Placement method 
+### Pole Placement 
   By introducing controller input, we can control the pendulum on the cart to the desired target. This is achieved through the pole placement method, strategically placing all the eigenvalues in the left half-plane, ensuring system stability.
 - Initial value [x=-3, x_dot=0, theta=pi+.1, theta_dot=0]'
 - Desired value [x=1, x_dot=0, theta=pi, theta-dot=0]'
 
 ![Animated GIF](Videos/Pole-Placement.gif)
 
+### Linear Quadratic Regulator (LQR) 
 
 
 
