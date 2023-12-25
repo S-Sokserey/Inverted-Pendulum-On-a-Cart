@@ -1,4 +1,4 @@
-clear all, close all, clc
+clear, close all, clc
 
 m = 1;
 M = 5;
@@ -19,7 +19,7 @@ Q = [10 0 0 0;
      0 10 0 0;
      0 0 10 0; 
      0 0 0 100];
-R = 0.01; 
+R = 0.1; 
 
 
 eig(A)
@@ -41,3 +41,6 @@ end
 for k=1:100:length(t)
     drawcartpend(y(k,:),m,M,L);
 end
+
+
+plot(t,y)
