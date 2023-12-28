@@ -1,4 +1,4 @@
-# Inverted-Pendulum-On-a-Cart
+# Inverted-Pendulum-On-A-Cart (m file) 
 ### No controller 
   Without a controller, the inverted pendulum, starting with an initial angle slightly greater than π, will sway back and forth due to the pull of gravity. Over time, it will naturally come to a stop, slowed down by the effects of friction.
 
@@ -15,4 +15,8 @@
 LQR is the sweet spot to find controller gain that aims to minimize a cost function that represents a trade-off between the control effort and the state of the system. It provides an optimal control law that minimizes a quadratic cost function. 
 
 ![Animated GIF](Videos/LQR.gif)
+
+# Inverted-Pendulum-On-A-Cart (simulink file) 
+
+
 
