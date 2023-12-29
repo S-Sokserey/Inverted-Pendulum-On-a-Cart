@@ -20,6 +20,12 @@ LQR is the sweet spot to find controller gain that aims to minimize a cost funct
 
 ![Animated GIF](Videos/No_control_Sim.gif)
 
+![Animated GIF](Videos/LQR_Sim.gif)
+
+![Animated GIF](Videos/Energy_swing_up.gif)
+
+
+
 
 
 
