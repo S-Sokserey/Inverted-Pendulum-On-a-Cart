@@ -18,5 +18,8 @@ LQR is the sweet spot to find controller gain that aims to minimize a cost funct
 
 # Inverted-Pendulum-On-A-Cart (simulink file) 
 
+![Animated GIF](Videos/No_control_Sim.gif)
+
+
 
 
