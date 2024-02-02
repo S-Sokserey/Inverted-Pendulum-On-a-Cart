@@ -1,4 +1,7 @@
 # Inverted-Pendulum-On-A-Cart (m file) 
+
+### Hardware Setup 
+![](Img/Pendulum_cart.png)
 ### No controller 
   Without a controller, the inverted pendulum, starting with an initial angle slightly greater than π, will sway back and forth due to the pull of gravity. Over time, it will naturally come to a stop, slowed down by the effects of friction.
 
