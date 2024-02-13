@@ -10,7 +10,7 @@ b= 0.000007892;    % Viscous damping of pendulum (Nm/rad/sec)
 Rm = 7.424;        % Motor armature resistance (ohm)
 kb = 0.03733;      % Motor back emf constant (V/rad/sec)
 kt = 0.03733;      % Motor torque constant (Nm/A)
-c = 20;         % Viscous friction coefficient for cart displacement (Nm/sec)
+c = 5;         % Viscous friction coefficient for cart displacement (Nm/sec)
 m = 0.038;        % Mass of the pendulum rod (kg)
 
 
@@ -29,10 +29,12 @@ nn = (m*l*kt)/(AA*Rm*r);
 A  =  [0 0 1 0; 0 0 0 1; 0 aa -bb -cc; 0 dd -ee -ff];
 B = [0;0; mm; nn]; 
 Q = diag([1200 1500 0 0]);
-R  = 0.35;
+R  = 0.01;
 KK = lqr(A,B,Q,R);
+
+
 p1 = [1i*2.8; -1i*2.8; 1i*1.5; -1i*1.5]; % oscillatory
 p2 =[-8+1i*2; -8-1i*2; -7+1i*2; -7-1i*2 ]; % underdamped
 p3 =[-8; -10; -4.5; -5.8];  % stable. 
-p4 =[-20; -15.5; -45.5; -4.8];  % Fast or Aggressive.
-k = place(A,B,p3);
+p4 =[-20; -15.5; -45.5; -50.8];  % Fast or Aggressive.
+k = place(A,B,p4);
